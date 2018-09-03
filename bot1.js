@@ -374,7 +374,6 @@ client.on('guildMemberAdd', member => {
     let channel = member.guild.channels.find('name', 'chat');
 	  let args = message.content.split(" ").slice(1);
       if (!channel) return;
-        .setColor('RANDOM')
         .addField(` ***Welcome To Server twin ♚:sparkles:.***`)
 
                                        
