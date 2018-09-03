@@ -376,9 +376,7 @@ client.on('guildMemberAdd', member => {
       if (!channel) return;
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
-        .addField(`.    *  :crescent_moon:   .      *    .      *    .  *            :comet:️.    *         ️ *     .    :satellite_orbital:  :earth_africa:*      .     . :dizzy:     *     .     .  *.
-    *    .  *     :new_moon: Welcome To Space Server    .    *         *    .  *     :full_moon:  .    *     *    .  *        :comet: .    *:star:️   .   *
-{user}`)
+        .addField(` ***Welcome To Server twin ♚:sparkles:.***{user}`)
 
                                        
      .setFooter(`${member.guild.name}`)
