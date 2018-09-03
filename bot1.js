@@ -370,16 +370,5 @@ client.on('message', message => {
       message.channel.sendMessage(`**✅   ${argresult}**`)
   }
   });
- client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', 'chat');
-      if (!channel) return;
-    let embed = new Discord.RichEmbed()
-        .setColor('RANDOM')
-        .addField(` ***Welcome To Server twin ♚:sparkles:.*** `)
 
-                                       
-        .setTimestamp()
-   
-      channel.sendEmbed(embed);
-    }); 
 client.login(process.env.BOT_TOKEN);
