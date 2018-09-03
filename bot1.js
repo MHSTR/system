@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
- const client = new Discord.Client();
+const client = new Discord.Client({disableEveryone: true});
 console.log('mhstr');
 
 client.on('message', message => {
@@ -25,8 +25,6 @@ const ytdl = require('ytdl-core');
 const fs = require('fs');
 
 const gif = require("gif-search");
-
-const client = new Discord.Client({disableEveryone: true});
 
 const prefix = "M";
 /////////////////////////
