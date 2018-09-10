@@ -1,7 +1,15 @@
 {
-  "token" : "Bot token goes here",
-  "ms" : 3000,
-  "roleToDisco" : ["disco"],
-  "prefix" : "=",
-  "allowedUsers" : ["354716386716811264", "389090790984515594"]
+    "servers": [
+       "466681413882609704","431397251445817345"
+      
+    
+    
+        
+        
+    
+    ],
+      "roleName": "disco", 
+    "colors": 100,
+    "speed": 3000,
+    "logging": true
 }
